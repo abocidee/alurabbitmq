@@ -23,7 +23,7 @@ public interface OrderServiceApi {
      * @param orderId
      * @return
      */
-    OrderInfo getOrderById(long orderId);
+    //OrderInfo getOrderById(long orderId);
 
     /**
      * 通过用户id与商品id从订单列表中获取订单信息，这个地方用到了唯一索引（unique index!!!!!）
@@ -42,5 +42,5 @@ public interface OrderServiceApi {
      * @param goods
      * @return
      */
-    OrderInfo createOrder(UserVo user, GoodsVo goods);
+   // OrderInfo createOrder(UserVo user, GoodsVo goods);
 }

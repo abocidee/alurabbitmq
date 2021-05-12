@@ -21,7 +21,7 @@ public interface SeckillServiceApi {
      * @param goodsId
      * @return
      */
-    String createVerifyCode(UserVo user, long goodsId);
+   // String createVerifyCode(UserVo user, long goodsId);
 
     /**
      * 执行秒杀操作，包含以下两步：
@@ -42,5 +42,5 @@ public interface SeckillServiceApi {
      * @param goodsId
      * @return
      */
-    long getSeckillResult(Long userId, long goodsId);
+   // long getSeckillResult(Long userId, long goodsId);
 }
