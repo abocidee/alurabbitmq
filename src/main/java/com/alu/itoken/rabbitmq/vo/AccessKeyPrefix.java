@@ -7,7 +7,7 @@ import java.io.Serializable;
  *
  * @author noodle
  */
-public class AccessKeyPrefix extends com.guli.guli.framework.edu.Dto.vo.BaseKeyPrefix implements Serializable{
+public class AccessKeyPrefix extends BaseKeyPrefix implements Serializable{
     public AccessKeyPrefix(String prefix) {
         super(prefix);
     }

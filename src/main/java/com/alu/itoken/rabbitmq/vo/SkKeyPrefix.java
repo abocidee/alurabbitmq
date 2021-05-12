@@ -6,7 +6,7 @@ import java.io.Serializable;
 /**
  * 判断秒杀状态的key前缀
  */
-public class SkKeyPrefix extends com.guli.guli.framework.edu.Dto.vo.BaseKeyPrefix implements Serializable {
+public class SkKeyPrefix extends BaseKeyPrefix implements Serializable {
     public SkKeyPrefix(String prefix) {
         super(prefix);
     }

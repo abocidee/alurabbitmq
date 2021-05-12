@@ -23,8 +23,5 @@ public class GoodsServiceHystrix implements GoodsServiceApi {
         return null;
     }
 
-    @Override
-    public boolean reduceStock(GoodsVo goods) {
-        return false;
-    }
+
 }

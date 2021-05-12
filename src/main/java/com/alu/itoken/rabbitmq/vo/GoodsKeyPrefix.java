@@ -8,7 +8,7 @@ import java.io.Serializable;
  *
  * @author noodle
  */
-public class GoodsKeyPrefix extends com.guli.guli.framework.edu.Dto.vo.BaseKeyPrefix implements Serializable {
+public class GoodsKeyPrefix extends BaseKeyPrefix implements Serializable {
     public GoodsKeyPrefix(int expireSeconds, String prefix) {
         super(expireSeconds, prefix);
     }
