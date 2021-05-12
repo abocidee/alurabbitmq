@@ -1,0 +1,9 @@
+version: '3'
+services:
+  alu-rabbit-1:
+    container_name: alu-rabbit-1
+    build: /Users/abocide/Documents/GitHub/itoken/alu-rabbitmq 
+    ports:
+      - 8783:8783
+
+
